@@ -45,16 +45,18 @@ function App() {
               <Route path={"/about"} component={About}/>
               <Route exact path={"/"} render={()=> <h1>Startside</h1>}/>
               <Route render={()=> <h1>404</h1>}/>
+              <Route path={"/about/:text"} component={About}/>
           </Switch>
       </header>
     </div>
   );
 }
 
-const About = () =>{
+const About = ({match}) =>{
+    console.log(match);
     return <div>
-        <h1>About</h1>
+        <h1>About {match.params.text}</h1>
     </div>
-}
+};
 
 export default App;
