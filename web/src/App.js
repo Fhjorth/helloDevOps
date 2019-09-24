@@ -44,6 +44,7 @@ function App() {
           <Switch>
               <Route path={"/about"} component={About}/>
               <Route exact path={"/"} render={()=> <h1>Startside</h1>}/>
+              <Route render={()=> <h1>404</h1>}/>
           </Switch>
       </header>
     </div>
