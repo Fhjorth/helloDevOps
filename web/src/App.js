@@ -6,6 +6,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Route from "react-router-dom/es/Route";
+import Switch from "react-router-dom/es/Switch";
 
 function App() {
   return (
@@ -40,7 +41,10 @@ function App() {
         >
           Learn React
         </a>
-          <Route path={"/about"} component={About}></Route>
+          <Switch>
+              <Route path={"/about"} component={About}/>
+              <Route exact path={"/"} render={()=> <h1>Startside</h1>}/>
+          </Switch>
       </header>
     </div>
   );
