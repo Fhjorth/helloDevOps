@@ -43,7 +43,7 @@ function App() {
           Learn React
         </a>
           <Switch>
-              <Route path={"/about"} component={About}/>
+              {/*<Route path={"/about"} component={About}/>*/}
               <Route exact path={"/"} render={()=> <h1>Startside</h1>}/>
               <Route render={()=> <h1>404</h1>}/>
               <Route path={"/about/:text"} component={About}/>
