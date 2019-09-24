@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
+import Button from "react-bootstrap/Button";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             />
           </InputGroup>
         </div>
+          <div>
+              <Button variant="primary">CLICK</Button>
+          </div>
         <a
           className="App-link"
           href="https://reactjs.org"
