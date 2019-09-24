@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6ebe952-1c0e-489f-a2db-825be6c5b008" name="Default Changelist" comment="" />
+    <list default="true" id="d6ebe952-1c0e-489f-a2db-825be6c5b008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/precache-manifest.2918d75eb8f39325eb80fadee0388bc8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/main.d3777553.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/main.d3777553.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Heroku01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Heroku01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-Heroku01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Heroku01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +61,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567502978305" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -112,7 +124,7 @@
       <workItem from="1568122122235" duration="4171000" />
       <workItem from="1568710395232" duration="217000" />
       <workItem from="1568711585925" duration="286000" />
-      <workItem from="1569305651372" duration="1293000" />
+      <workItem from="1569305651372" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="rest service">
       <created>1567500548526</created>
