@@ -5,6 +5,7 @@ import './App.css';
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
+import Route from "react-router-dom/es/Route";
 
 function App() {
   return (
@@ -39,9 +40,16 @@ function App() {
         >
           Learn React
         </a>
+          <Route path={"/about"} component={About}></Route>
       </header>
     </div>
   );
+}
+
+const About = () =>{
+    return <div>
+        <h1>About</h1>
+    </div>
 }
 
 export default App;
