@@ -7,6 +7,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Route from "react-router-dom/es/Route";
 import Switch from "react-router-dom/es/Switch";
+import withRouter from "react-router-dom/es/withRouter";
 
 function App() {
   return (
@@ -52,11 +53,13 @@ function App() {
   );
 }
 
-const About = ({match}) =>{
+const About = withRouter(({history,match})=>{
+    console.log(history);
     console.log(match);
     return <div>
         <h1>About {match.params.text}</h1>
+        <Button onClick={()=>history.push("/")}>Go to front</Button>
     </div>
-};
+});
 
 export default App;
