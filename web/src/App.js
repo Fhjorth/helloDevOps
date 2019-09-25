@@ -9,6 +9,7 @@ import Route from "react-router-dom/es/Route";
 import Switch from "react-router-dom/es/Switch";
 import withRouter from "react-router-dom/es/withRouter";
 import GiraffeStore from "./stores/GiraffeStore";
+import {observer} from "mobx-react";
 
 const giraffeStore = new GiraffeStore();
 
@@ -72,4 +73,4 @@ const About = withRouter(({history,match})=>{
     </div>
 });
 
-export default App;
+export default observer(App);

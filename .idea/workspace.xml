@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ebe952-1c0e-489f-a2db-825be6c5b008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/stores/GiraffeStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Heroku01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/launch/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/TestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ops-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +119,7 @@
       <workItem from="1568122122235" duration="4171000" />
       <workItem from="1568710395232" duration="217000" />
       <workItem from="1568711585925" duration="286000" />
-      <workItem from="1569305651372" duration="10373000" />
+      <workItem from="1569305651372" duration="10560000" />
     </task>
     <task id="LOCAL-00001" summary="rest service">
       <created>1567500548526</created>
