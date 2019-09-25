@@ -8,6 +8,9 @@ import Button from "react-bootstrap/Button";
 import Route from "react-router-dom/es/Route";
 import Switch from "react-router-dom/es/Switch";
 import withRouter from "react-router-dom/es/withRouter";
+import GiraffeStore from "./stores/GiraffeStore";
+
+const giraffeStore = new GiraffeStore();
 
 function App() {
   return (
@@ -48,6 +51,13 @@ function App() {
               <Route render={()=> <h1>404</h1>}/>
               <Route path={"/about/:text"} component={About}/>
           </Switch>
+
+          <ul>
+              {giraffeStore.giraffes.map((giraffeName,key)=>
+              <li key={key}>{giraffeName}</li>
+              )}
+          </ul>
+          <Button onclick={()=>giraffeStore.giraffes.push("Elmer")}>Tilføj giraf</Button>
       </header>
     </div>
   );
