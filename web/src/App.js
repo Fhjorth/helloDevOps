@@ -58,7 +58,7 @@ function App() {
               <li key={key}>{giraffeName}</li>
               )}
           </ul>
-          <Button variant="primary" onclick={()=>giraffeStore.giraffes.push("Elmer")}>Tilføj giraf</Button>
+          <Button variant="primary" onClick={()=>giraffeStore.giraffes.push("Elmer")}>Tilføj giraf</Button>
       </header>
     </div>
   );
