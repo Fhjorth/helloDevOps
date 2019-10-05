@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d6ebe952-1c0e-489f-a2db-825be6c5b008" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/GiraffeService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/stores/GiraffeStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/stores/GiraffeStore.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,7 @@
       <workItem from="1568711585925" duration="286000" />
       <workItem from="1569305651372" duration="11303000" />
       <workItem from="1569936912871" duration="1354000" />
-      <workItem from="1570276470039" duration="1690000" />
+      <workItem from="1570276470039" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="rest service">
       <created>1567500548526</created>
