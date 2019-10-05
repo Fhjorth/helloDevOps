@@ -47,7 +47,7 @@ function App() {
           Learn React
         </a>
           <Switch>
-              {/*<Route path={"/about"} component={About}/>*/}
+              <Route path={"/about"} component={About}/>
               <Route exact path={"/"} render={()=> <h1>Startside</h1>}/>
               <Route render={()=> <h1>404</h1>}/>
               <Route path={"/about/:text"} component={About}/>
@@ -58,7 +58,7 @@ function App() {
               <li key={key}>{giraffeName}</li>
               )}
           </ul>
-          <Button onclick={()=>giraffeStore.giraffes.push("Elmer")}>Tilføj giraf</Button>
+          <Button variant="primary" onclick={()=>giraffeStore.giraffes.push("Elmer")}>Tilføj giraf</Button>
       </header>
     </div>
   );
@@ -69,7 +69,7 @@ const About = withRouter(({history,match})=>{
     console.log(match);
     return <div>
         <h1>About {match.params.text}</h1>
-        <Button onClick={()=>history.push("/")}>Go to front</Button>
+        <Button onClick={()=>window.history.pushState("/", "modified browser entry", "about:blank")}>Go to front</Button>
     </div>
 });
 

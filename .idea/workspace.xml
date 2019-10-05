@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6ebe952-1c0e-489f-a2db-825be6c5b008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/GiraffeService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/main.ac882eab.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/main.ac882eab.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Heroku01.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Heroku01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ops-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ops-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/stores/GiraffeStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/stores/GiraffeStore.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +111,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -119,7 +130,9 @@
       <workItem from="1568122122235" duration="4171000" />
       <workItem from="1568710395232" duration="217000" />
       <workItem from="1568711585925" duration="286000" />
-      <workItem from="1569305651372" duration="10560000" />
+      <workItem from="1569305651372" duration="11303000" />
+      <workItem from="1569936912871" duration="1354000" />
+      <workItem from="1570276470039" duration="1151000" />
     </task>
     <task id="LOCAL-00001" summary="rest service">
       <created>1567500548526</created>
