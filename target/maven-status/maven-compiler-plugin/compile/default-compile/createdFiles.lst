@@ -1,4 +1,5 @@
 AppConfig.class
-rest/TestService.class
+rest/CORSFilter.class
 rest/Hello.class
+rest/GiraffeService.class
 launch/Main.class
